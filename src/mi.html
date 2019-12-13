@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="http://s01.mifile.cn/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="小米,RedmiNote8Pro,小米cc9,Redmi K20,美图手机,小米MIX Alpha,小米商城">
+    <meta name="description"
+        content="小米商城直营小米公司旗下所有产品，包括小米手机系列小米CC9 美图手机定制版、小米9、小米MIX Alpha，Redmi 红米系列Redmi K20 Pro、Redmi Note 8，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持">
+    <title>小米商城</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./sass/index.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+
+</head>
+
+<body>
+    <!-- 设置条 -->
+    <div id="topbar">
+        <div class="container">
+            <nav class="topbar-nav">
+                <li><a href="#">小米商城</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">MIUI</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">IoT</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">云服务</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">金融 </a></li>
+                <span class="sep">|</span>
+                <li><a href="#">有品 </a></li>
+                <span class="sep">|</span>
+                <li><a href="#">小爱开放平台</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">企业团购</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">资质证照</a></li>
+                <span class="sep">|</span>
+                <li><a href="javascript:;">协议规则</a></li>
+                <span class="sep">|</span>
+                <li><a href="#">下载app</a></li>
+                <span class="sep">|</span>
+                <div class="app shadow">
+                    <img src="http://i1.mifile.cn/f/i/17/appdownload/download.png?1" alt="">
+                </div>
+                <li><a href="#">Select Location</a></li>
+            </nav>
+            <!-- 购物车 -->
+            <div class="cart">
+                <span class="iconfont icon-gouwuchekong"></span>
+                <span>
+                    购物车(
+                    <strong>0</strong>
+                    )
+                </span>
+                <div class="cartmenu shadow">
+                    <ul>
+                        <!-- <li>
+                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559097300.03074345.jpg?width=60&height=60" alt="">
+                            <p>米家互联网洗烘一</p>
+                            <span class="price">149元</span><span class="num">×1</span>
+                            <div>×</div>
+                        </li> -->
+                    </ul>
+                    <div class="cartmenu_last">
+                        <div class="cartmenu_lastL">
+                            <p>共<em>5</em>件商品</p>
+                            <span class="catrprice">6025</span><span class="yuan">元</span>
+
+                        </div>
+                        <div class="cartmenu_lastR">
+                            去购物车结算
+                        </div>
+                    </div>
+                    <!-- 购物车为空时 -->
+                    <div class="nocart">
+                        购物车中还没有商品赶快选购吧~
+                    </div>
+                </div>
+            </div>
+            <!-- info -->
+            <div class="info">
+                <a href="">登录</a>
+                <span class="sep">|</span>
+                <a href="">注册</a>
+                <span class="sep">|</span>
+                <a href="">消息通知</a>
+            </div>
+            <ul class="useinfo">
+                <li>
+                    <span class="name"></span>
+                    <span class="iconfont icon-arrow-left"></span>
+                    <!-- 用户名弹出菜单 -->
+                    <ul class="usermenu shadow">
+                        <li>个人中心</li>
+                        <li>评价晒单</li>
+                        <li>我的喜欢</li>
+                        <li>小米账户</li>
+                        <li>退出登录</li>
+                    </ul>
+                </li>
+                <span>|</span>
+                <li>消息通知</li>
+                <span>|</span>
+                <li>我的订单</li>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <header id="header">
+        <h1 class="logo">
+            <div class="imgwarp">
+                <img src="http://s02.mifile.cn/assets/static/image/mi-home.png" alt="">
+                <img src="http://s02.mifile.cn/assets/static/image/mi-logo.png" alt="">
+            </div>
+        </h1>
+        <nav class="classify">
+            <li>小米手机</li>
+            <li>Redmi红米</li>
+            <li>电视</li>
+            <li>笔记本</li>
+            <li>家电</li>
+            <li>路由器</li>
+            <li>智能硬件</li>
+            <li>服务</li>
+            <li>社区</li>
+        </nav>
+        <div class="seachwarp">
+            <div class="seach">
+                <input type="text">
+                <a class="seach_a_l" href="#">小米9 Pro 5G</a>
+                <a class="seach_a_r" href="#">Redmi Note 8</a>
+            </div>
+            <div class="seach_btn">
+                <span class="iconfont icon-fangdajing"></span>
+            </div>
+        </div>
+    </header>
+    <!-- 商品分类弹出菜单 -->
+    <ul id="calssify_menu" class="shadow">
+        <li>
+            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/be92bc4baa572bf467fc9e881fd4be2a.png?thumb=1&w=160&h=110&f=webp&q=90"
+                alt="">
+            <p>小米CC9 Pro</p>
+            <span>2799元起</span>
+        </li>
+        <div class="line"></div>
+        <li>
+            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/be92bc4baa572bf467fc9e881fd4be2a.png?thumb=1&w=160&h=110&f=webp&q=90"
+                alt="">
+            <p>小米CC9 Pro</p>
+            <span>2799元起</span>
+        </li>
+        <div class="line"></div>
+        <li></li>
+        <div class="line"></div>
+        <li></li>
+        <div class="line"></div>
+        <li></li>
+        <div class="line"></div>
+        <li class="lastli"></li>
+    </ul>
+    <!-- banner -->
+    <div id="banner">
+        <div id="left_arrow"></div>
+        <div id="right_arrow"></div>
+        <ul id="lunbo">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3945ca27dcc0e59790006a4443bfbabe.jpg?w=2452&h=920"
+            alt="">
+        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d1599ed57cd3ca8751966105f86571e6.jpg?thumb=1&w=1226&h=460&f=webp&q=90"
+            alt="">
+        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5eba71243eb1334ec59f01ee26fbbb52.jpg?thumb=1&w=1226&h=460&f=webp&q=90"
+            alt="">
+        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e52c3e98602b90f198ec316dce253cba.jpg?thumb=1&w=1226&h=460&f=webp&q=90"
+            alt="">
+        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/05bc8af40fc9f9941808d253034c279d.jpg?thumb=1&w=1226&h=460&f=webp&q=90"
+            alt="">
+        <div class="banner_left">
+            <ul>
+                <li>
+                    <p>手机 平板 电话卡</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>电视 盒子</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>路由器 智能硬件</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>移动电源 插线板</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>耳机 音箱</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>电池 存储卡</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>保护套 后盖</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>贴膜 其他配件</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>米兔 服装</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+                <li>
+                    <p>箱包 其他周边</p><span class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu-1"></span>
+                </li>
+
+            </ul>
+        </div>
+        <div class="banner_right">
+            <ul>
+                <li>
+                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>Redmi K30 4G</span>
+                </li>
+                <li>
+                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>Redmi K30 4G</span>
+                </li>
+                <li>
+                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>Redmi K30 4G</span>
+                </li>
+                <li>
+                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>Redmi K30 4G</span>
+                </li>
+                <li>
+                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>Redmi K30 4G</span>
+                </li>
+                <li>
+                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>Redmi K30 4G</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米MIX 3</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米MIX 3</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米MIX 3</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米MIX 3</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米MIX 3</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米MIX 3</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米CC美图定制版</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米CC美图定制版</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米CC美图定制版</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米CC美图定制版</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米CC美图定制版</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
+                        alt="">
+                    <span>小米CC美图定制版</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>小米MIX Alpha</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>小米MIX Alpha</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>小米MIX Alpha</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>小米MIX Alpha</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>小米MIX Alpha</span>
+                </li>
+                <li>
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
+                        alt="">
+                    <span>小米MIX Alpha</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- home -->
+    <div id="home">
+        <ul class="home_l">
+            <li>
+                <span class="iconfont icon-miaosha"></span>
+                <span class="home_title">小米秒杀</span>
+            </li>
+            <li>
+                <span class="iconfont icon-qiye"></span>
+                <span class="home_title">企业团购</span>
+            </li>
+            <li>
+                <span class="iconfont icon-goumai"></span>
+                <span class="home_title">F码通道</span>
+            </li>
+            <li>
+                <span class="iconfont icon-shoujiqia"></span>
+                <span class="home_title">米粉卡</span>
+            </li>
+            <li>
+                <span class="iconfont icon-yijiuhuanxin"></span>
+                <span class="home_title">以旧换新</span>
+            </li>
+            <li>
+                <span class="iconfont icon-huafeichongzhi"></span>
+                <span class="home_title">话费充值</span>
+            </li>
+        </ul>
+        <ul class="home_r">
+            <li><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7c5524bbd8d8e2d8b4fec3774915d2fb.jpg?w=632&h=340" alt=""></li>
+            <li><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/daae21ecb17e628f5255412f103c626f.jpg?w=632&h=340" alt=""></li>
+            <li><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/816a66edef10673b4768128b41804cae.jpg?w=632&h=340" alt=""></li>
+        </ul>
+    </div>
+    <!-- main -->
+    <main id="main">
+        <!-- 小米闪购 -->
+        <section id="flashsale"></section>
+    </main>
+</body>
+
+</html>

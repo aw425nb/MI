@@ -1,0 +1,139 @@
+@charset "utf-8";
+#header{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    position: absolute;
+    top: 25.25px;
+    overflow: hidden;
+    left: 0;
+    .imgwarp{
+        width: 110px;
+        height: 55px;
+        position: absolute;
+        left: -55px;
+        img{
+            width: 53px;
+            display: inline-block;
+        }
+    }
+}/* 商品分类 */
+.classify{
+    position: absolute;
+    left: 234px;
+    bottom: 0;
+    li{
+        float: left;
+        height: 88px;
+        font-size: 16px;
+        padding: 0 10px;
+        line-height: 88px;
+        cursor: pointer;
+        &:hover{
+            color:#ff6700;
+        }
+    }
+}
+.seachwarp{
+    
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    
+    .seach{
+        width: 223px;
+        height: 48px;
+        padding: 0 10px;
+        border: 1px solid #e0e0e0;
+        float: left;
+        position: relative;
+        input{
+            width: 100%;
+            height: 30px;
+            border: 0;
+            margin-top: 9px;
+        }
+        a{
+            height: 18px;
+            padding: 0 5px;
+            background-color: #eee;
+            position: absolute;
+            top: 16px;
+            text-align: center;
+            line-height: 18px;
+            font-size: 12px;
+        }
+        .seach_a_l{
+            left: 35px;
+        }
+        .seach_a_r{
+            left: 125px;
+        }
+        
+    }
+    .seach_btn{
+        width: 38px;
+        height: 36px;
+        padding: 6px 1px;
+        border: 1px solid #e0e0e0;
+        float: left;
+        border-left:0;
+        text-align: center;
+        cursor: pointer;
+        span{
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+}
+#calssify_menu{
+    width: 100%;
+    height: 0px;
+    padding-left: 62px;
+    overflow: hidden;
+    display: none;
+    border-bottom: 1px solid #ccc;
+    li{
+        width: 180px;
+        height: 180px;
+        padding: 12px 35px 12px 0;
+        color: rgb(51, 51, 51);
+        line-height: 18px;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        text-align: center;
+        img{
+            margin: 10px 0 0 5px
+        }
+        p{
+            margin-left: 14px;
+        }
+        span{
+            margin-left: 14px;
+            color: #ff6700;
+        }
+        
+    }
+    .lastli{
+        margin-right: 0;
+    }
+    div{
+        width: 1px;
+        height: 110px;
+        margin: 20px 14px;
+        background-color: #ccc;
+        float: left;
+    }
+    
+}
+body{
+        height: 5000px;
+    }

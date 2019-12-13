@@ -1,0 +1,117 @@
+@charset "utf-8";
+#banner{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    >img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+.banner_left{
+    width: 234px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background: rgba(0,0,0, 0.4)
+}
+.banner_left ul{
+    width: 234px;
+    height: 440px;
+    list-style: none;
+    padding-top:20px;
+    li{
+    line-height: 42px;
+    color:#ffffff;
+    height: 42px;
+    font-size: 14px;
+        &:hover{
+            background: #ff6700;
+        }
+        p {
+            float: left;
+            padding-left: 30px;    
+        }
+        span {
+            float: right;
+            padding-right: 15px;
+        }
+    }
+}
+#banner .banner_right{
+    width: 997px;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top:0;
+    left: 234px;
+    display: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    ul{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        
+        li{
+            width: 100%;
+            height: 16.6%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+        }
+        
+    }
+}
+#banner #left_arrow{
+    position: absolute;
+    top: 50%;
+    left: 234px;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    z-index: 3;
+    cursor: pointer;
+    outline: none;
+    background: url(../img/icon-slides.png) no-repeat -83px 0;
+}
+#banner #right_arrow{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+    z-index: 3;
+    cursor: pointer;
+    outline: none;
+    background: url(../img/icon-slides.png) no-repeat -123px 0;
+}
+#banner #lunbo{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    z-index: 3;
+    li{
+       width: 6px;
+       height: 6px;
+       margin: 0 6px;
+       border-radius: 50%;
+       border: 3px solid #999;
+       background-color: #666;
+       float: left;
+    }
+}
+
