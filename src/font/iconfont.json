@@ -83,6 +83,13 @@
       "unicode_decimal": 58890
     },
     {
+      "icon_id": "3442328",
+      "name": "回到顶部",
+      "font_class": "huidaodingbu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
       "icon_id": "3607864",
       "name": "7天",
       "font_class": "sevenday-copy",
