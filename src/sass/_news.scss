@@ -1,0 +1,46 @@
+@charset "utf-8";
+#video{
+    width: 1227px;
+    height: 328px;
+    margin: 35px auto 0;
+    h2{
+        margin-bottom: 18px;
+        font-weight: 500;
+        font-size: 23px; 
+    }
+    div{
+        width: 296px;
+        height: 286px;
+        float: left;
+        background:white;
+        margin-left: 14px;
+        text-align: center;
+        position: relative;
+        p{
+        font-size: 14px;
+        color: #333333;
+        margin: 25px 0 5px 0;
+        }
+        .play{
+            width: 32px;
+            height: 20px;
+            border: 2px solid #fff;
+            border-radius: 12px;
+            background-color: rgba(0,0,0,.6);
+            position: absolute;
+            top: 142px;
+            left: 4px;
+            text-align: center;
+            line-height: 20px;
+            .iconfont{
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+    }
+    
+}
+ 
+
+
+
