@@ -118,6 +118,13 @@
       "unicode_decimal": 59030
     },
     {
+      "icon_id": "8071253",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
       "icon_id": "9027774",
       "name": "以旧换新",
       "font_class": "yijiuhuanxin",
