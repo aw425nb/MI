@@ -293,12 +293,24 @@
       #public_temp .main .banner .banner_top {
         width: 234px;
         height: 300px;
-        background-color: #fff; }
+        background-color: #fff;
+        position: relative;
+        transition: all 0.3s;
+        top: 0px; }
+        #public_temp .main .banner .banner_top:hover {
+          top: -2px;
+          box-shadow: 0px 5px 10px #999; }
       #public_temp .main .banner .banndr_bot {
         width: 234px;
         height: 300px;
         margin-top: 14px;
-        background-color: #fff; }
+        background-color: #fff;
+        position: relative;
+        transition: top 0.3s;
+        top: 0px; }
+        #public_temp .main .banner .banndr_bot:hover {
+          top: -2px;
+          box-shadow: 0px 5px 10px #999; }
     #public_temp .main .main_r {
       width: 978px;
       height: 614px;
@@ -308,16 +320,39 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-content: space-between; }
+      #public_temp .main .main_r li:last-of-type {
+        transition: top 0.3s;
+        top: 0px; }
+        #public_temp .main .main_r li:last-of-type:hover {
+          top: 0px;
+          box-shadow: 0px 0px 0px #fff; }
       #public_temp .main .main_r li {
         width: 234px;
         height: 300px;
-        position: relative; }
+        position: relative;
+        transition: top 0.3s;
+        top: 0px; }
+        #public_temp .main .main_r li:hover {
+          top: -2px;
+          box-shadow: 0px 5px 10px #999; }
+      #public_temp .main .main_r #hover {
+        position: relative;
+        transition: top 0.3s;
+        top: 0px; }
+        #public_temp .main .main_r #hover:hover {
+          top: -2px;
+          box-shadow: 0px 5px 10px #999; }
   #public_temp .li_top {
     width: 100%;
     height: 143px;
     background-color: #fff;
     margin-bottom: 14px;
-    position: relative; }
+    position: relative;
+    transition: top 0.3s;
+    top: 0px; }
+    #public_temp .li_top:hover {
+      top: -2px;
+      box-shadow: 0px 5px 10px #999; }
     #public_temp .li_top img {
       position: absolute;
       right: 20px;
@@ -341,7 +376,12 @@
     width: 100%;
     height: 143px;
     background-color: #fff;
-    position: relative; }
+    position: relative;
+    transition: top 0.3s;
+    top: 0px; }
+    #public_temp #li_bot:hover {
+      top: -2px;
+      box-shadow: 0px 5px 10px #999; }
     #public_temp #li_bot .iconfont {
       position: absolute;
       font-size: 48px;
@@ -788,7 +828,12 @@ h1 {
     background: white;
     margin-left: 14px;
     text-align: center;
-    position: relative; }
+    position: relative;
+    transition: top 0.3s;
+    top: 0px; }
+    #video div:hover {
+      top: -2px;
+      box-shadow: 0px 5px 10px #999; }
     #video div p {
       font-size: 14px;
       color: #333333;
