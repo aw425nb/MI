@@ -1,136 +1,45 @@
-#header {
-  width: 1130px;
-  height: 98px;
-  left: 0;
-  top: 0;
-  background-color: #fff;
-  position: relative;
+#warp {
+  width: 786px;
+  padding: 0 34px 30px;
   margin: 0 auto; }
-
-#content {
-  width: 100%;
-  height: 588px;
-  left: 0;
-  top: 0;
-  background-color: red;
-  background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e8201bfbb8c9d474a48da76f7d81a5c7.jpg) no-repeat -600px 0;
-  position: relative; }
-  #content .warp {
-    position: absolute;
-    width: 410px;
-    height: 556px;
-    left: 830px;
-    top: 32px;
-    background-color: #fff; }
-    #content .warp .title {
-      width: 410px;
-      height: 31px;
-      padding: 27px 0 24px;
-      text-align: left;
-      text-indent: 34px;
-      font-size: 24px;
-      color: #ff6700; }
-    #content .warp form {
-      width: 348px;
-      margin: 0 auto; }
-      #content .warp form .username {
-        display: block;
-        width: 316px;
-        height: 22px;
-        padding: 14px 13px 16px;
-        margin-bottom: 20px; }
-      #content .warp form .password {
-        display: block;
-        width: 316px;
-        height: 22px;
-        padding: 14px 13px 16px;
-        margin-bottom: 25px; }
-      #content .warp form .submit {
-        display: block;
-        width: 348px;
-        height: 50px;
-        background-color: #ff6700;
-        border: none;
-        color: #fff;
-        font-size: 14px; }
-    #content .warp .other {
-      width: 348px;
-      height: 208px;
-      margin: 8px auto 0; }
-      #content .warp .other .phone {
-        color: #ff6700;
-        font-size: 14px;
-        float: left; }
-      #content .warp .other .forgetpswd, #content .warp .other .login {
-        float: right;
-        color: #999; }
-        #content .warp .other .forgetpswd:hover, #content .warp .other .login:hover {
-          color: #ff6700; }
-      #content .warp .other .line {
-        float: right;
-        padding: 0 4px;
-        color: #999; }
-      #content .warp .other .other_bot {
-        width: 348px;
-        height: 65px;
-        padding-top: 143px; }
-      #content .warp .other .bot_title {
-        width: 348px;
-        height: 18px;
-        border-top: 1px solid #bbb;
-        color: #bbb; }
-        #content .warp .other .bot_title .type_txt {
-          margin: 0 auto;
-          text-align: center;
-          color: #bbb; }
-    #content .warp .icon {
-      width: 348px;
-      height: 33px;
-      padding-top: 3px; }
-      #content .warp .icon ul {
-        width: 256px;
-        height: 30px;
-        margin: 0 auto; }
-      #content .warp .icon div {
-        width: 30px;
-        height: 30px;
-        background-color: red;
-        float: left;
-        border-radius: 50%;
-        margin: 0 17px; }
-      #content .warp .icon li {
-        width: 20px;
-        height: 18px;
-        margin: 6px 5px;
-        background-image: url(../img/icons_type.png); }
-      #content .warp .icon .qq {
-        background-position-x: -18px; }
-      #content .warp .icon .weibo {
-        background-position-x: -37px; }
-      #content .warp .icon .zhifubao {
-        background-position-x: -57px; }
-      #content .warp .icon .weixin {
-        background-position-x: -85px; }
-
-#footer {
-  width: 100%;
-  height: 80px;
-  padding-top: 100px; }
-  #footer .warp {
+  #warp .logo {
     width: 100%;
-    height: 19px;
+    height: 48px;
     text-align: center; }
-    #footer .warp a {
-      font-size: 14px; }
-    #footer .warp span {
-      margin: 0 10px;
-      font-size: 14px; }
-  #footer p {
+    #warp .logo img {
+      width: 49px;
+      height: 48px; }
+  #warp .title {
     width: 100%;
-    height: 24px;
-    padding: 10px 0;
+    height: 45px;
+    line-height: 45px;
     text-align: center;
-    color: #757575;
-    font-size: 14px; }
+    font-size: 30px;
+    color: #333;
+    font-weight: 500; }
+  #warp .registry {
+    width: 332px;
+    margin: 0 auto; }
+    #warp .registry h3 {
+      color: #333;
+      font-weight: normal;
+      font-size: 14px;
+      height: 20px;
+      margin: 0 0 5px 0; }
+    #warp .registry input {
+      width: 332px;
+      height: 42px;
+      box-sizing: border-box;
+      padding: 5px; }
+    #warp .registry span {
+      width: 100%;
+      height: 20px;
+      font-size: 14px;
+      margin: 8px 0 8px 0;
+      display: block; }
+    #warp .registry .submit {
+      background-color: #ff6700;
+      border: 0;
+      color: #fff; }
 
 /*# sourceMappingURL=registry.css.map */
