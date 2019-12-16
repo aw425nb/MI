@@ -1,0 +1,357 @@
+@charset "UTF-8";
+#header {
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative; }
+
+h1 {
+  width: 55px;
+  height: 55px;
+  background-color: #ff6700;
+  position: absolute;
+  top: 25.25px;
+  overflow: hidden;
+  left: 0; }
+  h1 .imgwarp {
+    width: 110px;
+    height: 55px;
+    position: absolute;
+    left: -55px; }
+    h1 .imgwarp img {
+      width: 53px;
+      display: inline-block; }
+
+/* 商品分类 */
+.classify {
+  position: absolute;
+  left: 234px;
+  bottom: 0; }
+  .classify li {
+    float: left;
+    height: 88px;
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 88px;
+    cursor: pointer; }
+    .classify li:hover {
+      color: #ff6700; }
+
+.seachwarp {
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 25px; }
+  .seachwarp .seach {
+    width: 223px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    position: relative; }
+    .seachwarp .seach input {
+      width: 100%;
+      height: 30px;
+      border: 0;
+      margin-top: 9px; }
+    .seachwarp .seach a {
+      height: 18px;
+      padding: 0 5px;
+      background-color: #eee;
+      position: absolute;
+      top: 16px;
+      text-align: center;
+      line-height: 18px;
+      font-size: 12px; }
+    .seachwarp .seach .seach_a_l {
+      left: 35px; }
+    .seachwarp .seach .seach_a_r {
+      left: 125px; }
+  .seachwarp .seach_btn {
+    width: 38px;
+    height: 36px;
+    padding: 6px 1px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    border-left: 0;
+    text-align: center;
+    cursor: pointer; }
+    .seachwarp .seach_btn span {
+      font-size: 26px;
+      line-height: 36px; }
+
+#calssify_menu {
+  width: 100%;
+  height: 0px;
+  padding-left: 62px;
+  overflow: hidden;
+  display: none;
+  border-bottom: 1px solid #ccc; }
+  #calssify_menu li {
+    width: 180px;
+    height: 180px;
+    padding: 12px 35px 12px 0;
+    color: #333333;
+    line-height: 18px;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    text-align: center; }
+    #calssify_menu li img {
+      margin: 10px 0 0 5px; }
+    #calssify_menu li p {
+      margin-left: 14px; }
+    #calssify_menu li span {
+      margin-left: 14px;
+      color: #ff6700; }
+  #calssify_menu .lastli {
+    margin-right: 0; }
+  #calssify_menu div {
+    width: 1px;
+    height: 110px;
+    margin: 20px 14px;
+    background-color: #ccc;
+    float: left; }
+
+#footer-service {
+  width: 100%;
+  height: 34px; }
+  #footer-service ul {
+    list-style: none;
+    width: 1226px;
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto; }
+    #footer-service ul li {
+      width: 240.2px;
+      height: 25px;
+      float: left;
+      line-height: 25px;
+      margin-top: 30px;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      border-right: 1px solid #e0e0e0; }
+    #footer-service ul .iconfont {
+      float: left;
+      font-size: 26px;
+      margin-right: 5px; }
+    #footer-service ul p {
+      float: left; }
+
+/* 关于 */
+#about {
+  width: 1227px;
+  height: 192px;
+  margin: 0 auto;
+  padding: 22px 17px; }
+
+.about {
+  width: 982px;
+  height: 194px;
+  float: left; }
+  .about div {
+    overflow: hidden;
+    width: 160px;
+    height: 194px;
+    float: left;
+    font-size: 12px;
+    margin-right: 2px; }
+    .about div h2 {
+      color: #424242;
+      margin: 60px 0 26px;
+      font-weight: 500;
+      font-size: 14px; }
+    .about div ul li {
+      line-height: 28px;
+      font-size: 12px; }
+      .about div ul li a {
+        color: #757575; }
+
+.service {
+  width: 244px;
+  height: 114px;
+  float: left;
+  margin: 63px 0;
+  text-align: center;
+  border-left: 1px solid #e0e0e0; }
+  .service h3 {
+    color: #ff6700;
+    font-size: 16px; }
+  .service p {
+    font-size: 10px;
+    line-height: 18px; }
+  .service .staff {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    background: #fff;
+    color: #ff6700;
+    margin: 10px 0 0 60px; }
+    .service .staff .iconfont {
+      color: #ff6700; }
+
+body {
+  background-color: #fff; }
+
+#title {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 1px 2px 5px #e0e0e0; }
+
+.warp {
+  width: 1224px;
+  height: 100%;
+  margin: 0 auto; }
+  .warp h2 {
+    height: 100%;
+    line-height: 60px;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 400;
+    float: left; }
+  .warp .left {
+    float: left;
+    margin: 24px 0 0 20px; }
+    .warp .left li {
+      padding: 0 6px;
+      border-left: 1px solid #ccc;
+      float: left;
+      cursor: pointer; }
+      .warp .left li:hover {
+        color: #ff6700; }
+  .warp .right {
+    float: right;
+    margin-top: 24px; }
+    .warp .right li {
+      padding: 0 6px;
+      border-right: 1px solid #aaa;
+      float: left;
+      font-size: 14px;
+      cursor: pointer; }
+      .warp .right li:hover {
+        color: #ff6700; }
+
+#main {
+  width: 1224px;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 620px; }
+  #main .main_l {
+    width: 560px;
+    height: 560px;
+    float: left;
+    position: relative; }
+    #main .main_l img {
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+    #main .main_l .reduce {
+      position: absolute;
+      width: 41px;
+      height: 69px;
+      z-index: 3;
+      top: 280px;
+      background: url(../img/icon-slides.png) no-repeat -84px 50%; }
+      #main .main_l .reduce:hover {
+        background: url(../img/icon-slides.png) no-repeat 0px 50%; }
+    #main .main_l .add {
+      position: absolute;
+      width: 41px;
+      height: 69px;
+      z-index: 3;
+      top: 280px;
+      right: 0;
+      background: url(../img/icon-slides.png) no-repeat -125px 50%; }
+      #main .main_l .add:hover {
+        background: url(../img/icon-slides.png) no-repeat -42px 50%; }
+    #main .main_l .img_bar {
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      z-index: 3;
+      bottom: 16px;
+      text-align: center;
+      left: 0; }
+      #main .main_l .img_bar a {
+        display: inline-block;
+        width: 50px;
+        height: 100%;
+        background-color: #212121;
+        margin: 2px;
+        background-color: #ccc; }
+        #main .main_l .img_bar a:hover {
+          background-color: #757575; }
+  #main .main_r {
+    width: 606px;
+    height: 560px;
+    float: right; }
+    #main .main_r h3 {
+      font-size: 24px;
+      font-weight: normal;
+      color: #212121;
+      margin-top: 60px; }
+    #main .main_r .pro {
+      width: 546px;
+      height: 80px;
+      padding: 30px;
+      background-color: #f9f9fa;
+      margin-top: 40px; }
+      #main .main_r .pro h4 {
+        font-size: 14px; }
+      #main .main_r .pro p {
+        font-size: 24px;
+        color: #ff6700;
+        margin-top: 20px; }
+    #main .main_r .addcart {
+      width: 300px;
+      height: 54px;
+      background-color: #ff6700;
+      margin-top: 20px;
+      line-height: 54px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      float: left; }
+    #main .main_r .num {
+      width: 150px;
+      height: 52px;
+      border: 1px solid #ccc;
+      float: left;
+      margin: 20px 0 0 10px; }
+      #main .main_r .num .reduce, #main .main_r .num .add {
+        width: 52px;
+        height: 52px;
+        float: left;
+        line-height: 48px;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer; }
+      #main .main_r .num input {
+        float: left;
+        width: 46px;
+        height: 52px;
+        border: 0;
+        text-align: center;
+        font-size: 26px; }
+
+#description {
+  width: 100%;
+  height: 266px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+  text-align: center; }
+  #description p {
+    width: 1224px;
+    height: 33px;
+    padding: 22px 0;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: left; }
+
+/*# sourceMappingURL=details.css.map */

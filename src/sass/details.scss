@@ -1,0 +1,195 @@
+@charset "utf-8";
+@import "header";
+@import "footer-service";
+$o:#ff6700;
+$border_c: #e0e0e0;
+body{
+    background-color: #fff;
+}
+#title{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    border-top: 1px solid $border_c;
+    border-bottom: 1px solid $border_c;
+    box-shadow: 1px 2px 5px $border_c;
+}
+.warp{
+    width: 1224px;
+    height: 100%;
+    margin: 0 auto;
+    h2{
+        height: 100%;
+        line-height: 60px;
+        font-size: 18px;
+        color: #212121;
+        font-weight: 400;
+        float: left;
+    }
+    .left{
+        float: left;
+        margin: 24px 0 0 20px;
+        li{
+            padding: 0 6px;
+            border-left: 1px solid #ccc;
+            float: left;
+            cursor: pointer;
+            &:hover{
+                color: $o;
+            }
+        }
+    }
+    .right{
+        float: right;
+        margin-top: 24px;
+        li{
+            padding: 0 6px;
+            border-right: 1px solid #aaa;
+            float: left;
+            font-size: 14px;
+            cursor: pointer;
+            &:hover{
+                color: $o;
+            }
+        }
+    }
+}
+#main{
+    width: 1224px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 620px;
+    .main_l{
+        width: 560px;
+        height: 560px;
+        float: left;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .reduce{
+            position: absolute;
+            width: 41px;
+            height: 69px;
+            z-index: 3;
+            top: 280px;
+            background: url(../img/icon-slides.png) no-repeat -84px 50%;
+            &:hover{
+                background: url(../img/icon-slides.png) no-repeat 0px 50%;
+            }
+        }
+        .add{
+            position: absolute;
+            width: 41px;
+            height: 69px;
+            z-index: 3;
+            top: 280px;
+            right: 0;
+            background: url(../img/icon-slides.png) no-repeat -125px 50%;
+            &:hover{
+                background: url(../img/icon-slides.png) no-repeat -42px 50%;
+            }
+        }
+        .img_bar{
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            z-index: 3;
+            bottom: 16px;
+            text-align: center;
+            left: 0;
+            a{
+                display: inline-block;
+                width: 50px;
+                height: 100%;
+                background-color: #212121;
+                margin: 2px;
+                background-color: #ccc;
+                &:hover{
+                    background-color: #757575;
+                }
+            }
+            
+        }
+    }
+    .main_r{
+        width: 606px;
+        height: 560px;
+        float: right;
+        h3{
+            font-size: 24px;
+            font-weight: normal;
+            color: #212121;
+            margin-top: 60px;
+        }
+        .pro{
+            width: 546px;
+            height: 80px;
+            padding: 30px;
+            background-color: #f9f9fa;
+            margin-top: 40px;
+            h4{
+                font-size: 14px;
+            }
+            p{
+                font-size: 24px;
+                color: $o;
+                margin-top: 20px;
+            }
+        }
+        .addcart{
+            width: 300px;
+            height: 54px;
+            background-color: $o;
+            margin-top: 20px;
+            line-height: 54px;
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            float: left;
+        }
+        .num{
+            width: 150px;
+            height: 52px;
+            border: 1px solid #ccc;
+            float: left;
+            margin: 20px 0 0 10px;
+            .reduce,.add{
+                width: 52px;
+                height: 52px;
+                float: left;
+                line-height: 48px;
+                text-align: center;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            input{
+                float: left;
+                width: 46px;
+                height: 52px;
+                border: 0;
+                text-align: center;
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+#description{
+    width: 100%;
+    height: 266px;
+    padding-bottom: 50px;
+    background: #f5f5f5;
+    text-align: center;
+    p{
+        width: 1224px;
+        height: 33px;
+        padding: 22px 0;
+        margin: 0 auto;
+        font-size: 22px;
+        text-align: left;
+    }
+    
+}

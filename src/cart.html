@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>我的购物车 - 小米商城</title>
+    <link rel="icon" href="http://s01.mifile.cn/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/cart.css">
 </head>
 <body>
-    <header id=></header>
+    <header id="header">
+        <div class="warp">
+            <h1 class="logo">
+                <img src="https://s01.mifile.cn/i/mi-logo.png" alt="">
+            </h1>
+            <h2 class="title">我的购物车</h2>
+            <p class="introduce">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+            <ul class="info">
+                <li>我的订单</li>
+                <span>|</span>
+                <li>吴世杰</li>
+            </ul>
+        </div>
+        
+    </header>
+    <main id="main">
+        <section class="header">
+            <div class="checked">
+                <input type="checkbox">
+                <label for="">全选</label>
+            </div>
+            <div class="name">商品名称</div>
+            <div class="price">单价</div>
+            <div class="num">数量</div>
+            <div class="total">小计</div>
+            <div class="action">操作</div>
+        </section>
+        <ul class="list">
+            <li>
+                <div class="list_checked">
+                    <input class="=checked" type="checkbox" name="" id="">
+                </div>
+                <div class="img">
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/T178EjBjVT1RXrhCrK.jpg?thumb=1&w=80&h=80" alt="">
+                </div>
+                <p class="title">彩虹7号电池（10粒装） 彩色</p>
+                <div class="list_price"><span>9.9</span>元</div>
+                <div class="list_num">
+                    <div class="reduce">-</div>
+                    <input type="text" value="2">
+                    <div class="add">+</div>
+                </div>
+                <div class="list_total"><span>9.9</span>元</div>
+                <div class="del">×</div>
+            </li>
+            <li>
+                <div class="list_checked">
+                    <input class="=checked" type="checkbox" name="" id="">
+                </div>
+                <div class="img">
+                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/T178EjBjVT1RXrhCrK.jpg?thumb=1&w=80&h=80" alt="">
+                </div>
+                <p class="title">彩虹7号电池（10粒装） 彩色</p>
+                <div class="list_price"><span>9.9</span>元</div>
+                <div class="list_num">
+                    <div class="reduce">-</div>
+                    <input type="text" value="2">
+                    <div class="add">+</div>
+                </div>
+                <div class="list_total"><span>9.9</span>元</div>
+                <div class="del">×</div>
+            </li>
+        </ul>
+        <div class="cart_bar">
+            <div class="goshop">继续购物</div>
+            <span class="line">|</span>
+            <p class="price_bar">
+                共&nbsp;<span class="z_num">2</span>&nbsp;件商品，已选择&nbsp;<span class="z_price">2</span>&nbsp;件
+            </p>
+            <div class="btn">去结算</div>
+            <p class="cart_price">
+                <span>合计<em>708.9</em></span>元
+            </p>
+        </div>
+    </main>
 </body>
 </html>

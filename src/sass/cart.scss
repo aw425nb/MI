@@ -1,0 +1,260 @@
+$o:#ff6700;
+body{
+    background-color: #f5f5f5;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid $o;
+    background-color: #fff;
+    .warp{
+        width: 1226px;
+        height: 74px;
+        margin: 0 auto;
+        padding-top: 26px;
+    }
+    .logo{
+        width: 48px;
+        height: 48px;
+        background-color: $o;
+        float: left;
+    }
+    .title{
+        width: 140px;
+        height: 48px;
+        float: left;
+        line-height: 48px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: normal;
+        color: #424242;
+        margin-left: 45px;
+        
+    }
+    .introduce{
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+        color: #757575;
+        font-size: 12px;
+    }
+    .info{
+        width: 200px;
+        height: 40px;
+        float: right;
+        margin-top: 20px;
+        color: #b0b0b0;
+        li{
+            float: right;
+        }
+        span{
+            float: right;
+            margin: 0 5px;
+        }
+    }
+}
+#main{
+    width: 1226px;
+    margin: 0 auto;
+    margin-top: 38px;
+    .header{
+        width: 100%;
+        height: 60px;
+        padding: 0px 0;
+        font-size: 14px;
+        margin-top: 50px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+    }
+    .checked{
+        width: 110px;
+        height: 20px;
+        float: left;
+        margin: 0 15px 0 24px;
+        
+        line-height: 20px;
+        
+        input{
+            width: 18px;
+            height: 18px;
+           
+        }
+        
+    }
+    .name{
+        width: 380px;
+        float: left;
+        margin-left: 80px;
+    }
+    .price{
+        width: 140px;
+        padding-right: 18px;
+        
+        float: left;
+    }
+    .num{
+        width: 150px;
+        margin-left: 34px;
+        float: left;
+    }
+    .total{
+        width: 110px;
+        height: 20px;
+        margin-left: 32px;
+        float: left;
+        text-align: left;
+    }
+    .action{
+        width: 80px;
+        
+        float: left;
+    }
+    .list{
+        width: 1226px;
+        li{
+            width: 1226px;
+            height: 100px;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            .list_checked{
+                width: 110px;
+                float: left;
+                input{
+                    width: 18px;
+                    height: 18px;
+                    margin-left: 24px;
+                }
+            }
+            .img{
+                width: 80px;
+                height: 86px;
+                padding-right: 40px;
+                float: left;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .title{
+                width: 380px;
+                height: 86px;
+                line-height: 86px;
+                font-size: 18px;
+                color: #333;
+            }
+            .list_price{
+                width: 140px;
+                height: 86px;
+                font-size: 16px;
+                line-height: 86px;
+            }
+            .list_num{
+                width: 148px;
+                height: 38px;
+                border: 1px solid #b0b0b0;
+                .reduce,.add{
+                    width: 38px;
+                    height: 38px;
+                    text-align: center;
+                    line-height: 38px;
+                    float: left;
+                    font-size: 20px;
+                    &:hover{
+                        background-color: #b0b0b0;
+                    }
+                }
+                input{
+                    width: 72px;
+                    height: 38px;
+                    float: left;
+                    border: none;
+                    text-align: center;
+                    font-size: 16px;
+                }
+                
+            }
+            .list_total{
+                width: 120px;
+                font-size: 16px;
+                text-align: right;
+                margin-right: 81px;
+            }
+            .del{
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                line-height: 24px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 60;
+                color: #333;
+                cursor: pointer;
+                &:hover{
+                    background-color: red;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .cart_bar{
+        width: 1226px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: #fff;
+        .goshop{
+            width: 56px;
+            height: 50px;
+            font-size: 14px;
+            color: #333;
+            line-height: 50px;
+            margin-left: 32px;
+            float: left;
+            &:hover{
+                color: $o;
+            }
+        }
+        .line{
+            line-height: 20px;
+            padding: 15px;
+            color: #ccc;
+            font-size: 16px;
+            float: left;
+        }
+        .price_bar{
+            float: left;
+            line-height: 50px;
+            font-size: 14px;
+            span{
+                color: $o;
+            }
+        }
+        .cart_price{
+            float: right;
+            font-size: 14px;
+            line-height: 60px;
+            color: $o;
+            em{
+                font-size: 30px;
+                font-weight: normal;
+            }
+        }
+        .btn{
+            width: 200px;
+            height: 48px;
+            background-color: $o;
+            float: right;
+            margin-left: 50px;
+            color: #fff;
+            line-height: 48px;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+    }
+    
+}

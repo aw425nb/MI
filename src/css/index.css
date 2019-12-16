@@ -105,6 +105,8 @@
     width: 318px;
     right: 0;
     color: #757575;
+    background-color: #fff;
+    z-index: 3;
     box-sizing: border-box;
     padding: 10px;
     display: none;
