@@ -34,6 +34,6 @@
     "gulp-watch": "^5.0.1"
   },
   "dependencies": {
-    "jquery": "^1.12.4"
+    "jquery": "^3.4.0"
   }
 }
