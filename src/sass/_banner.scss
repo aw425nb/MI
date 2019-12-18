@@ -4,23 +4,23 @@
     height: 460px;
     margin: 0 auto;
     position: relative;
-    >img{
+    .lb_img{
         width: 100%;
         height: 100%;
         position: absolute;
         left: 0;
         top: 0;
+        opacity: 0;
     }
 }
 .banner_left{
     width: 234px;
     height: 100%;
     position: relative;
-    z-index: 2;
-    overflow: hidden;
+    z-index: 4;
     background: rgba(0,0,0, 0.4)
 }
-.banner_left ul{
+.banner_left .left{
     width: 234px;
     height: 440px;
     list-style: none;
@@ -47,7 +47,7 @@
     width: 997px;
     height: 100%;
     position: absolute;
-    z-index: 3;
+    
     top:0;
     left: 234px;
     display: none;//flex
@@ -99,6 +99,9 @@
     cursor: pointer;
     outline: none;
     background: url(../img/icon-slides.png) no-repeat -83px 0;
+    &:hover{
+        background: url(../img/icon-slides.png) no-repeat 0px 0;
+    }
 }
 #banner #right_arrow{
     position: absolute;
@@ -111,6 +114,9 @@
     cursor: pointer;
     outline: none;
     background: url(../img/icon-slides.png) no-repeat -123px 0;
+    &:hover{
+        background: url(../img/icon-slides.png) no-repeat -42px 0;
+    }
 }
 #banner #lunbo{
     position: absolute;
@@ -123,8 +129,11 @@
        margin: 0 6px;
        border-radius: 50%;
        border: 3px solid #999;
-       background-color: #666;
+       background-color: #ccc;
        float: left;
+    }
+    .active{
+        background-color: #fff;
     }
 }
 

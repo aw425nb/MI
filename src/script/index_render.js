@@ -1,4 +1,4 @@
-import { $, ajax, addtool, bufferMove } from './toolmodule.js';
+import { $, ajax, addtool, bufferMove,siblings} from './toolmodule.js';
 class render {
     constructor() {
         this.lunbo_img = $('.lb_img', 'all');//轮播图图片
@@ -29,7 +29,6 @@ class render {
             type: 'post',
             dataType: 'json'
         }).then(function (data) {
-            console.log(data)
             //轮播图图片加载
             for (let i = 0; i < _this.lunbo_img.length; i++) {
                 _this.lunbo_img[i].src = data[8 + i].url;
@@ -56,7 +55,8 @@ class render {
             }
             calssify_str += `
                 <li>
-                    <a href="./details.html?sid=${data[4].sid}">
+                    
+                    <a style="width:172px" href="./details.html?sid=${data[4].sid}">
                         <img src="${data[4].url}" alt="">
                         <p>${data[4].title}</p>
                         <span>${data[4].price}元起</span>

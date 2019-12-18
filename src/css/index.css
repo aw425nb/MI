@@ -270,7 +270,8 @@
         height: 100%;
         line-height: 58px;
         margin-left: 10px;
-        font-size: 14px; }
+        font-size: 14px;
+        cursor: pointer; }
       #public_temp .title ul .borer_bot {
         border-bottom: 2px solid #ff6700; }
       #public_temp .title ul a {
@@ -492,7 +493,7 @@ h1 {
       line-height: 18px;
       font-size: 12px; }
     .seachwarp .seach .seach_a_l {
-      left: 35px; }
+      left: 30px; }
     .seachwarp .seach .seach_a_r {
       left: 125px; }
   .seachwarp .seach_btn {
@@ -508,19 +509,21 @@ h1 {
       font-size: 26px;
       line-height: 36px; }
   .seachwarp .seach_list {
-    width: 223px;
-    padding: 0 10px;
+    width: 243px;
     border: 1px solid #ff6700;
-    border-top: 0;
+    display: none;
     position: absolute;
     left: 0px;
     top: 49px;
     z-index: 3;
     background-color: #fff; }
     .seachwarp .seach_list li {
-      width: 100%;
+      width: 233px;
       height: 40px;
-      line-height: 40px; }
+      line-height: 40px;
+      padding-left: 10px; }
+      .seachwarp .seach_list li:hover {
+        background-color: #ccc; }
 
 #calssify {
   width: 1498px;
@@ -529,7 +532,7 @@ h1 {
   position: absolute;
   left: -369px;
   top: 88px;
-  z-index: 3;
+  z-index: 5;
   background-color: #fff;
   display: none;
   overflow: hidden; }
@@ -577,37 +580,37 @@ h1 {
   height: 460px;
   margin: 0 auto;
   position: relative; }
-  #banner > img {
+  #banner .lb_img {
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
-    top: 0; }
+    top: 0;
+    opacity: 0; }
 
 .banner_left {
   width: 234px;
   height: 100%;
   position: relative;
-  z-index: 2;
-  overflow: hidden;
+  z-index: 4;
   background: rgba(0, 0, 0, 0.4); }
 
-.banner_left ul {
+.banner_left .left {
   width: 234px;
   height: 440px;
   list-style: none;
   padding-top: 20px; }
-  .banner_left ul li {
+  .banner_left .left li {
     line-height: 42px;
     color: #ffffff;
     height: 42px;
     font-size: 14px; }
-    .banner_left ul li:hover {
+    .banner_left .left li:hover {
       background: #ff6700; }
-    .banner_left ul li p {
+    .banner_left .left li p {
       float: left;
       padding-left: 30px; }
-    .banner_left ul li span {
+    .banner_left .left li span {
       float: right;
       padding-right: 15px; }
 
@@ -615,7 +618,6 @@ h1 {
   width: 997px;
   height: 100%;
   position: absolute;
-  z-index: 3;
   top: 0;
   left: 234px;
   display: none;
@@ -657,6 +659,8 @@ h1 {
   cursor: pointer;
   outline: none;
   background: url(../img/icon-slides.png) no-repeat -83px 0; }
+  #banner #left_arrow:hover {
+    background: url(../img/icon-slides.png) no-repeat 0px 0; }
 
 #banner #right_arrow {
   position: absolute;
@@ -669,6 +673,8 @@ h1 {
   cursor: pointer;
   outline: none;
   background: url(../img/icon-slides.png) no-repeat -123px 0; }
+  #banner #right_arrow:hover {
+    background: url(../img/icon-slides.png) no-repeat -42px 0; }
 
 #banner #lunbo {
   position: absolute;
@@ -681,8 +687,10 @@ h1 {
     margin: 0 6px;
     border-radius: 50%;
     border: 3px solid #999;
-    background-color: #666;
+    background-color: #ccc;
     float: left; }
+  #banner #lunbo .active {
+    background-color: #fff; }
 
 #home {
   width: 1226px;
@@ -853,20 +861,6 @@ h1 {
         float: left;
         margin-right: 14px;
         background-color: #fff; }
-      #flashsale .list_warp ul .li2 {
-        border-top: 1px solid #83c44e; }
-      #flashsale .list_warp ul .li3 {
-        border-top: 1px solid #ffac13; }
-      #flashsale .list_warp ul .li4 {
-        border-top: 1px solid #2196f3; }
-      #flashsale .list_warp ul .li5 {
-        border-top: 1px solid #00c0a5; }
-      #flashsale .list_warp ul .li6 {
-        border-top: 1px solid #e53935; }
-      #flashsale .list_warp ul .li7 {
-        border-top: 1px solid #83c44e; }
-      #flashsale .list_warp ul .li8 {
-        border-top: 1px solid #ffac13; }
 
 #video {
   width: 1227px;
@@ -990,10 +984,10 @@ h1 {
 
 #tool {
   width: 27px;
-  position: fixed;
+  position: absolute;
   bottom: 20px;
-  top: 636px;
-  left: 1565px; }
+  top: 223px;
+  right: -31px; }
   #tool li {
     width: 27px;
     height: 42px;

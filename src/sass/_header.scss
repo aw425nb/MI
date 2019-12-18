@@ -71,7 +71,7 @@ h1{
             font-size: 12px;
         }
         .seach_a_l{
-            left: 35px;
+            left: 30px;
         }
         .seach_a_r{
             left: 125px;
@@ -93,21 +93,22 @@ h1{
         }
     }
     .seach_list{
-        width: 223px;
-        padding: 0 10px;
+        width: 243px;
         border: 1px solid #ff6700;
-        border-top: 0;
+        display: none;
         position: absolute;
         left: 0px;
         top: 49px;
         z-index: 3;
         background-color: #fff;
         li{
-            width: 100%;
+            width: 233px;
             height: 40px;
-            
             line-height: 40px;
-
+            padding-left: 10px;
+            &:hover{
+                background-color: #ccc;
+            }
         }
     }
 }
@@ -118,7 +119,7 @@ h1{
     position: absolute;
     left: -369px;
     top: 88px;
-    z-index: 3;
+    z-index: 5;
     background-color: #fff;
     display: none;
     overflow: hidden;
@@ -126,7 +127,6 @@ h1{
 #calssify_menu{
     width: 1226px;
     height: 200px;
-    
     display: block;
     position: relative;
     margin: 0 auto;
