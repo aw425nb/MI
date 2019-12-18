@@ -14,7 +14,8 @@
     line-height: 40px;
     position: relative; }
     #topbar .topbar-nav li {
-      float: left; }
+      float: left;
+      position: relative; }
       #topbar .topbar-nav li a {
         font-size: 12px;
         color: #b0b0b0; }
@@ -22,14 +23,18 @@
           color: #ffffff; }
     #topbar .topbar-nav .app {
       position: absolute;
-      left: 528px;
       top: 40px;
-      width: 90px;
+      left: -50px;
+      width: 124px;
       height: 0px;
-      overflow: hidden; }
+      background-color: #fff;
+      overflow: hidden;
+      text-align: center;
+      z-index: 4; }
       #topbar .topbar-nav .app img {
         width: 90px;
-        height: 90px; }
+        height: 90px;
+        margin-top: 12px; }
 
 /* 顶部购物车 */
 #topbar .cart {
@@ -293,6 +298,7 @@
         width: 100%;
         height: 100%; }
       #public_temp .main .banner .banner_top {
+        display: block;
         width: 234px;
         height: 300px;
         background-color: #fff;
@@ -303,6 +309,7 @@
           top: -2px;
           box-shadow: 0px 5px 10px #999; }
       #public_temp .main .banner .banndr_bot {
+        display: block;
         width: 234px;
         height: 300px;
         margin-top: 14px;
@@ -313,6 +320,10 @@
         #public_temp .main .banner .banndr_bot:hover {
           top: -2px;
           box-shadow: 0px 5px 10px #999; }
+    #public_temp .main .main_l {
+      width: 234px;
+      height: 100%;
+      float: left; }
     #public_temp .main .main_r {
       width: 978px;
       height: 614px;
@@ -496,14 +507,39 @@ h1 {
     .seachwarp .seach_btn span {
       font-size: 26px;
       line-height: 36px; }
+  .seachwarp .seach_list {
+    width: 223px;
+    padding: 0 10px;
+    border: 1px solid #ff6700;
+    border-top: 0;
+    position: absolute;
+    left: 0px;
+    top: 49px;
+    z-index: 3;
+    background-color: #fff; }
+    .seachwarp .seach_list li {
+      width: 100%;
+      height: 40px;
+      line-height: 40px; }
+
+#calssify {
+  width: 1498px;
+  height: 0px;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  left: -369px;
+  top: 88px;
+  z-index: 3;
+  background-color: #fff;
+  display: none;
+  overflow: hidden; }
 
 #calssify_menu {
-  width: 100%;
-  height: 0px;
-  padding-left: 62px;
-  overflow: hidden;
-  display: none;
-  border-bottom: 1px solid #ccc; }
+  width: 1226px;
+  height: 200px;
+  display: block;
+  position: relative;
+  margin: 0 auto; }
   #calssify_menu li {
     width: 180px;
     height: 180px;
@@ -514,8 +550,14 @@ h1 {
     float: left;
     position: relative;
     text-align: center; }
+    #calssify_menu li a {
+      display: inline-block;
+      width: 100%;
+      height: 100%; }
     #calssify_menu li img {
-      margin: 10px 0 0 5px; }
+      margin: 10px 0 0 5px;
+      height: 100px;
+      width: 100px; }
     #calssify_menu li p {
       margin-left: 14px; }
     #calssify_menu li span {
@@ -591,6 +633,14 @@ h1 {
       display: flex;
       justify-content: center;
       align-items: center; }
+      #banner .banner_right ul li:hover span {
+        color: #ff6700; }
+      #banner .banner_right ul li a {
+        width: 100%;
+        height: 16.6%;
+        display: flex;
+        align-items: center;
+        padding-left: 60px; }
     #banner .banner_right ul img {
       width: 40px;
       height: 40px;
@@ -789,10 +839,13 @@ h1 {
     width: 978px;
     height: 340px;
     float: right;
-    overflow: hidden; }
+    overflow: hidden;
+    position: relative; }
     #flashsale .list_warp ul {
       height: 340px;
-      width: 1984px; }
+      width: 1984px;
+      position: absolute;
+      left: 0px; }
       #flashsale .list_warp ul li {
         height: 339px;
         width: 234px;

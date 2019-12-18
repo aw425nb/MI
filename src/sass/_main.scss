@@ -103,9 +103,12 @@
         height: 340px;
         float: right;
         overflow: hidden;
+        position: relative;
         ul{
             height: 340px;
             width: 1984px;
+            position: absolute;
+            left: 0px;
             li{
                 height: 339px;
                 width: 234px;

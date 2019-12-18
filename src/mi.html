@@ -41,11 +41,14 @@
                 <span class="sep">|</span>
                 <li><a href="javascript:;">协议规则</a></li>
                 <span class="sep">|</span>
-                <li><a href="#">下载app</a></li>
+                <li class="nav_li">
+                    <a href="#">下载app</a>
+                    <div class="app shadow">
+                        <img src="http://i1.mifile.cn/f/i/17/appdownload/download.png?1" alt="">
+                    </div>
+                </li>
                 <span class="sep">|</span>
-                <div class="app shadow">
-                    <img src="http://i1.mifile.cn/f/i/17/appdownload/download.png?1" alt="">
-                </div>
+                
                 <li><a href="#">Select Location</a></li>
             </nav>
             <!-- 购物车 -->
@@ -127,6 +130,10 @@
             <li>智能硬件</li>
             <li>服务</li>
             <li>社区</li>
+            <!-- 商品分类弹出菜单 -->
+            <div id="calssify"  class="shadow">
+                <ul id="calssify_menu"></ul>
+            </div>
         </nav>
         <div class="seachwarp">
             <div class="seach">
@@ -137,32 +144,13 @@
             <div class="seach_btn">
                 <span class="iconfont icon-fangdajing"></span>
             </div>
+            <ul class="seach_list">
+               
+            </ul>
         </div>
     </header>
-    <!-- 商品分类弹出菜单 -->
-    <ul id="calssify_menu" class="shadow">
-        <li>
-            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/be92bc4baa572bf467fc9e881fd4be2a.png?thumb=1&w=160&h=110&f=webp&q=90"
-                alt="">
-            <p>小米CC9 Pro</p>
-            <span>2799元起</span>
-        </li>
-        <div class="line"></div>
-        <li>
-            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/be92bc4baa572bf467fc9e881fd4be2a.png?thumb=1&w=160&h=110&f=webp&q=90"
-                alt="">
-            <p>小米CC9 Pro</p>
-            <span>2799元起</span>
-        </li>
-        <div class="line"></div>
-        <li></li>
-        <div class="line"></div>
-        <li></li>
-        <div class="line"></div>
-        <li></li>
-        <div class="line"></div>
-        <li class="lastli"></li>
-    </ul>
+    
+    
     <!-- banner -->
     <div id="banner">
         <div id="left_arrow"></div>
@@ -174,16 +162,12 @@
             <li></li>
             <li></li>
         </ul>
-        <img class="lb_img" src=""
-            alt="">
-        <img class="lb_img" src=""
-            alt="">
-        <img class="lb_img" src=""
-            alt="">
-        <img class="lb_img" src=""
-            alt="">
-        <img class="lb_img" src=""
-            alt="">
+        
+        <img class="lb_img" src="" alt="">
+        <img class="lb_img" src="" alt="">
+        <img class="lb_img" src="" alt="">
+        <img class="lb_img" src="" alt="">
+        <img class="lb_img" src="" alt="">
         <div class="banner_left">
             <ul>
                 <li>
@@ -220,71 +204,9 @@
             </ul>
         </div>
         <div class="banner_right">
-            <ul>
-                <li>
-                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
-                        alt="">
-                    <span>Redmi K30 4G</span>
-                </li>
-                <li>
-                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
-                        alt="">
-                    <span>Redmi K30 4G</span>
-                </li>
-                <li>
-                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
-                        alt="">
-                    <span>Redmi K30 4G</span>
-                </li>
-                <li>
-                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
-                        alt="">
-                    <span>Redmi K30 4G</span>
-                </li>
-                <li>
-                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
-                        alt="">
-                    <span>Redmi K30 4G</span>
-                </li>
-                <li>
-                    <img src="http://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=40&h=40&f=webp&q=90"
-                        alt="">
-                    <span>Redmi K30 4G</span>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
-                        alt="">
-                    <span>小米MIX 3</span>
-                </li>
-                <li>
-                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
-                        alt="">
-                    <span>小米MIX 3</span>
-                </li>
-                <li>
-                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
-                        alt="">
-                    <span>小米MIX 3</span>
-                </li>
-                <li>
-                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
-                        alt="">
-                    <span>小米MIX 3</span>
-                </li>
-                <li>
-                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
-                        alt="">
-                    <span>小米MIX 3</span>
-                </li>
-                <li>
-                    <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?thumb=1&w=40&h=40"
-                        alt="">
-                    <span>小米MIX 3</span>
-                </li>
-            </ul>
-            <ul>
+            <ul class="bn_o"></ul>
+            <ul class="bn_t"></ul>
+            <ul class="bn_s">
                 <li>
                     <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"
                         alt="">
@@ -316,7 +238,7 @@
                     <span>小米CC美图定制版</span>
                 </li>
             </ul>
-            <ul>
+            <ul class="bn_f">
                 <li>
                     <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"
                         alt="">
@@ -415,117 +337,18 @@
                 </div>
             </div>
             <div class="list_warp">
-                <ul class="flash_list">
-                    <li class="li1">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li2">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li3">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li4">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li5">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li6">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li7">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="li8">
-                        <div id="#template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元
-                                <span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                </ul>
+                <ul class="flash_list"></ul>
             </div>
-
         </section>
 
         <!-- banner1 -->
-        <div id="bannerbar">
-            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8bdd93c2aad57ede093b09d40000a48.jpg?thumb=1&w=1226&h=120&f=webp&q=90"
+        <div id="bannerbar" class="banner1">
+            <img src=""
                 alt="">
         </div>
 
         <!-- 手机 -->
-        <section id=public_temp>
+        <section id=public_temp class="sec_tell">
             <div class="title">
                 <span class="title_l">手机</span>
                 <ul>
@@ -538,119 +361,19 @@
                 </ul>
             </div>
             <div class="main">
-                <div class="banner">
-                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/574c6643ab91c6618bfb2d0e2c761d0b.jpg?thumb=1&w=234&h=614&f=webp&q=90"
-                        alt="">
-                </div>
-                <ul class="main_r">
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li id="hover">
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                </ul>
+                <div class="main_l"></div>
+                <ul class="main_r"></ul>
             </div>
         </section>
 
         <!-- banner2 -->
-        <div id="bannerbar">
+        <div id="bannerbar" class="banner2">
             <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e63ab43e7c32296f18f34c8efb41534.jpg?thumb=1&w=1226&h=120&f=webp&q=90"
                 alt="">
         </div>
 
         <!-- 家电 -->
-        <section id=public_temp>
+        <section id=public_temp class="sec_appliances">
             <div class="title">
                 <span class="title_l">家电</span>
                 <ul>
@@ -663,235 +386,20 @@
                 </ul>
             </div>
             <div class="main">
-                <div class="banner">
-                    <div class="banner_top">
-                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b56fd90a60e3d9e5d87dae9fbd427ea8.jpg?thumb=1&w=234&h=300&f=webp&q=90"
-                            alt="">
-                    </div>
-                    <div class="banndr_bot">
-                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b67de5a8ce9025fb5d8bac66e019d1c3.jpg?thumb=1&w=234&h=300&f=webp&q=90"
-                            alt="">
-                    </div>
-                </div>
-                <ul class="main_r">
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200"
-                                alt="">
-                            <h3> 米家互联网空调C1（一级能效）</h3>
-                            <h4>变频节能省电，自清洁</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li_top">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg?thumb=1&w=100&h=100&f=webp&q=90"
-                                alt="">
-                            <h3 class="title">
-                                Air 13.3" 2019款
-                            </h3>
-                            <p class="price">
-                                <span class="num">4999</span>
-                                <span>元起</span>
-                            </p>
-                        </div>
-                        <div id="li_bot">
-                            <span class="iconfont icon-youjiantou"></span>
-                            <div class="more">浏览更多</div>
-                            <p class="hot">热门</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="main_r"  style="display: none;">
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li_top">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg?thumb=1&w=100&h=100&f=webp&q=90"
-                                alt="">
-                            <h3 class="title">
-                                Air 13.3" 2019款
-                            </h3>
-                            <p class="price">
-                                <span class="num">4999</span>
-                                <span>元起</span>
-                            </p>
-                        </div>
-                        <div id="li_bot">
-                            <span class="iconfont icon-youjiantou"></span>
-                            <div class="more">浏览更多</div>
-                            <p class="hot">热门</p>
-                        </div>
-                    </li>
-                </ul>
+                <div class="banner"></div>
+                <ul class="main_r main_r_o" ></ul>
+                <ul class="main_r main_r_t" style="display: none;"></ul>
             </div>
         </section>
         
         <!-- banner3 -->
-        <div id="bannerbar">
+        <div id="bannerbar" class="banner3">
             <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/59e8fc8ba9718c266882719fb4bbcedd.jpg?thumb=1&w=1226&h=120&f=webp&q=90"
                 alt="">
         </div>
 
         <!-- 智能 -->
-        <section id=public_temp>
+        <!-- <section id=public_temp class="sec_ai">
             <div class="title">
                 <span class="title_l">智能</span>
                 <ul>
@@ -1230,254 +738,14 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
         <!-- banner4 -->
-        <div id="bannerbar">
+        <!-- <div id="bannerbar" class="banner4">
             <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4ee613ea2f1786d24173e84c85939838.jpg?thumb=1&w=1226&h=120&f=webp&q=90"
                 alt="">
-        </div>
+        </div> -->
 
-        <!-- 搭配 -->
-        <section id=public_temp>
-            <div class="title">
-                <span class="title_l">搭配</span>
-                <ul>
-                    <li>
-                        <span class="borer_bot fongt_siz">热门</span>
-                    </li>
-                    <li>
-                        <span class="fongt_siz">耳机音响</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="main">
-                <div class="banner">
-                    <div class="banner_top">
-                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6874615b3c50e837ffe532eb6ea4ef1a.jpg?thumb=1&w=234&h=300&f=webp&q=90"
-                            alt="">
-                    </div>
-                    <div class="banndr_bot">
-                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07038b3e5197bc127e621e92b726583c.jpg?thumb=1&w=234&h=300&f=webp&q=90"
-                            alt="">
-                    </div>
-                </div>
-                <ul class="main_r">
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li_top">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9946e252a7c49662376c056ced004a20.jpg?thumb=1&w=100&h=100&f=webp&q=90"
-                                alt="">
-                            <h3 class="title">
-                                Air 13.3" 2019款
-                            </h3>
-                            <p class="price">
-                                <span class="num">4999</span>
-                                <span>元起</span>
-                            </p>
-                        </div>
-                        <div id="li_bot">
-                            <span class="iconfont icon-youjiantou"></span>
-                            <div class="more">浏览更多</div>
-                            <p class="hot">热门</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="main_r"  style="display: none;">
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="template">
-                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=200&h=200&f=webp&q=90"
-                                alt="">
-                            <h3> Redmi K30</h3>
-                            <h4>120Hz流速屏，全速热爱</h4>
-                            <p class="price">
-                                <span class="num">1599</span>
-                                元<span>起</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li_top">
-                            <img src="https://i8.mifile.cn/b2c-mimall-media/ddf317f34e47eed06d910ee0ffd6b2fc!100x100.jpg"
-                                alt="">
-                            <h3 class="title">
-                                Air 13.3" 2019款
-                            </h3>
-                            <p class="price">
-                                <span class="num">4999</span>
-                                <span>元起</span>
-                            </p>
-                        </div>
-                        <div id="li_bot">
-                            <span class="iconfont icon-youjiantou"></span>
-                            <div class="more">浏览更多</div>
-                            <p class="hot">热门</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- banner5 -->
-        <div id="bannerbar">
-            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/88e35cffc82cd98cd53172460067af17.jpg?thumb=1&w=1226&h=120&f=webp&q=90"
-                alt="">
-        </div>
 
         <!-- video 视频 -->
         <div id="video">

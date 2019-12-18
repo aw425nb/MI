@@ -9,6 +9,10 @@ function $(selector, all) {
 }
 
 //运动
+
+// bufferMove(_this.list, {
+        //     left: -(num - 6) * liwidth
+        // });
 function bufferMove(obj, json, fn) {
     var speed = 0;
     function getStyle(obj, attr) {
