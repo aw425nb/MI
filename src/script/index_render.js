@@ -8,7 +8,8 @@ class render {
         //小米闪购
         this.flashsale_ul = $('.list_warp .flash_list');
         //banner1
-        this.banner1_img = $('.banner1 img');
+
+        this.banner1 = $('.banner1');
         //手机
         this.tell_main = $('.sec_tell .main_l');
         this.tell_ul = $('.sec_tell .main_r');
@@ -138,17 +139,9 @@ class render {
             
 
         })
-        document.onscroll = function () {
-            let scrolltop = document.documentElement.scrollTop;
-            // console.log(scrolltop)
-            if (scrolltop > 200 && scrolltop < 800) {
-                _this.flashsale()
-            } else if (scrolltop > 800) {
-                _this.tell()
-                _this.appliances()
-            }
-
-        }
+        this.flashsale();
+        this.appliances();
+        this.tell();
     }
     // 倒计时和banner1图片加载
     flashsale() {
@@ -174,10 +167,23 @@ class render {
                     </li>
                 `;
             }
+            // _this.flashsale_ul.innerHTML = flashsale_str;
+            // _this.banner1_img.data_src = data[16].url;
+            // _this.banner1_img.sid = data[16].sid;
             _this.flashsale_ul.innerHTML = flashsale_str;
-            _this.banner1_img.src = data[16].url;
-            _this.banner1_img.sid = data[16].sid;
 
+
+            let banner_1_str = `<img data_src="${data[16].url}" alt="">`;
+            _this.banner1.innerHTML = banner_1_str;
+            let banner1_img = $('.banner1 img');
+            console.log(banner1_img);
+            document.onscroll = function(){
+                let scrolltop = document.documentElement.scrollTop;
+                console.log(banner1_img)
+                if(scrolltop>600){
+                    banner1_img.src = banner1_img.getAttribute('data_src')
+                }
+            }
         })
     }
     //手机和banner2图片加载

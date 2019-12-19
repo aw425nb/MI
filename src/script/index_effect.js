@@ -39,9 +39,13 @@ class effect {
         this.as_main_t = $('.main_r_t');
 
         this.tool_bar = $('#tool');
+        this.gotop = $('.gotop');
+
+        // this.banner_1 = $('.banner1 img');
+        
     }
     init(){
-        console.log(this.as_hot)
+        
         this.popup();
         this.input();
         this.logomove();
@@ -50,7 +54,8 @@ class effect {
         this.flashsale();
         this.tab();
         this.appliances_tab();
-        this.tool()
+        this.tool();
+        // this.lazy();
     }
     //弹出事件
     popup(){
@@ -310,16 +315,31 @@ class effect {
     //右侧工具栏
     tool(){
         let _this = this;
-        document.onscroll = function () {
-            let f_left = _this.tool_bar.offsetLeft;
-            let f_top = _this.tool_bar.offsetTop;
-            _this.tool_bar.style.position= 'fixed'
-            _this.tool_bar.style.left = f_left+'px';
-            _this.tool_bar.style.top = f_top+'px';
+        document.onscroll = function(){
+            let scrotop = document.documentElement.scrollTop;
+            if(scrotop>400){
+                _this.gotop.style.display = 'block';
+            }else{
+                _this.gotop.style.display = 'none';
+            }
+        }
+
+        this.gotop.onclick = function(){
+            document.documentElement.scrollTop = 0;
         }
     }
-
-
+    //懒加载
+    lazy(){
+        let _this = this;
+        let banner_1 = document.querySelector('.banner1 img');
+        document.onscroll = function(){
+            let scrotop = document.documentElement.scrollTop;
+            console.log(banner_1)
+            if(scrotop>400){
+                console.log(banner_1.getAttribute(data_src));
+            }
+        }
+    }
 }
 
 export {
