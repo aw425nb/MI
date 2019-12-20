@@ -126,7 +126,7 @@ class effect {
             _this.seac_a_r.style.display = 'none';
             _this.seach_list.style.display = 'block';
             ajax({
-                url: 'http://10.31.161.199/MI/php/index_render.php',
+                url: 'http://localhost/MI/php/index_render.php',
                 type: 'post',
                 dataType: 'json'
             }).then(data=>{
